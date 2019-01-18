@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Aristotle</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js" charset="utf-8"></script>
+    <script src="https://rawgit.com/CodingTrain/Toy-Neural-Network-JS/master/examples/mnist/mnist.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h1 id="modeH1">Training</h1>
+            <p id="progressP">image: 1 of 50000</p>
+            <p id="predictionP"></p>
+          </div>
+          <div>
+            <h1 id="digitH1">Digit: 0</h1>
+            <p id="accuracyP"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sketch"></div>
+  </body>
+</html>
